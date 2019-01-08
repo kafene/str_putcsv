@@ -1,3 +1,5 @@
+[![](https://img.shields.io/packagist/v/kafene/str_putcsv.svg)](https://packagist.org/packages/kafene/str_putcsv)
+
 # str_putcsv
 a str_putcsv function for php
 
