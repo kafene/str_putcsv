@@ -2,7 +2,7 @@
 
 if (!function_exists('str_putcsv'))
 {
-    function str_putcsv(array $fields, ?string $delimiter = null, ?string $enclosure = null, ?string $escape = null)
+    function str_putcsv(array $fields, ?string $delimiter = null, ?string $enclosure = null, ?string $escape = null): string
     {
         $delimiter = $delimiter ?? ',';
         $enclosure = $enclosure ?? '"';
