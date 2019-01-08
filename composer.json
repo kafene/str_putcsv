@@ -1,0 +1,19 @@
+{
+    "name": "kafene/str_putcsv",
+    "description": "a str_putcsv function for php",
+    "keywords": ["csv", "str_putcsv"],
+    "homepage": "https://github.com/kafene/str_putcsv",
+    "license": "MPL-2.0",
+    "autoload": {
+        "files": ["str_putcsv.php"]
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
