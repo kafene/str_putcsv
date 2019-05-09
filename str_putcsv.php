@@ -9,7 +9,7 @@ if (!function_exists('str_putcsv'))
         $escape = $escape ?? '\\';
 
         // Open an in-memory file resource
-        $fp = fopen('php://temp', 'r+b');
+        $fp = fopen('php://memory', 'r+b');
 
         try {
             // Write the fields array to the file resource as a CSV line
